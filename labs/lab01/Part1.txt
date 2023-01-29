@@ -1,0 +1,157 @@
+environment: Git Bash
+
+
+
+Q2:
+$ python ok -q short-circuit -u
+=====================================================================
+Assignment: Lab 1
+OK, version v1.18.1
+=====================================================================
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Unlocking tests
+
+At each "? ", type what you would expect the output to be.
+Type exit() to quit
+
+---------------------------------------------------------------------
+Veritasiness > Suite 1 > Case 1
+(cases remaining: 3)
+
+What would Python display? If you get stuck, try it out in the Python
+interpreter!
+
+>>> True and 13
+? True
+-- Not quite. Try again! --
+
+? 12
+-- Not quite. Try again! --
+
+? 13
+-- OK! --
+
+>>> False or 0
+? 0
+-- OK! --
+
+>>> not 10
+? 11
+-- Not quite. Try again! --
+
+? 10
+-- Not quite. Try again! --
+
+? False
+-- OK! --
+
+>>> not None
+? True
+-- OK! --
+
+---------------------------------------------------------------------
+Veritasiness > Suite 1 > Case 2
+(cases remaining: 2)
+
+What would Python display? If you get stuck, try it out in the Python
+interpreter!
+
+>>> True and 1 / 0 and False  # If this errors, just type Error.
+? Error
+-- OK! --
+
+>>> True or 1 / 0 or False  # If this errors, just type Error.
+? True
+-- OK! --
+
+>>> True and 0  # If this errors, just type Error.
+? 0
+-- OK! --
+
+>>> False or 1  # If this errors, just type Error.
+? 1
+-- OK! --
+
+>>> 1 and 3 and 6 and 10 and 15  # If this errors, just type Error.
+? 1
+-- Not quite. Try again! --
+
+? Error
+-- Not quite. Try again! --
+
+? True
+-- Not quite. Try again! --
+
+? False
+-- Not quite. Try again! --
+
+? 0
+-- Not quite. Try again! --
+
+? 15
+-- OK! --
+
+>>> -1 and 1 > 0 # If this errors, just type Error.
+? False
+-- Not quite. Try again! --
+
+? false
+-- Not quite. Try again! --
+
+? True
+-- OK! --
+
+>>> 0 or False or 2 or 1 / 0  # If this errors, just type Error.
+? 0
+-- Not quite. Try again! --
+
+? 2
+-- OK! --
+
+---------------------------------------------------------------------
+Veritasiness > Suite 2 > Case 1
+(cases remaining: 1)
+
+What would Python display? If you get stuck, try it out in the Python
+interpreter!
+
+>>> not 0
+? 1
+-- Not quite. Try again! --
+
+? True
+-- OK! --
+
+>>> (1 + 1) and 1  # If this errors, just type Error. If this is blank, just type Nothing.
+? 2
+-- Not quite. Try again! --
+
+? (1 + 1)
+-- Not quite. Try again! --
+
+? blank
+-- Not quite. Try again! --
+
+? Error
+-- Not quite. Try again! --
+
+? 1
+-- OK! --
+
+>>> 1/0 or True  # If this errors, just type Error. If this is blank, just type Nothing.
+? True
+-- Not quite. Try again! --
+
+? blank
+-- Not quite. Try again! --
+
+? Error
+-- OK! --
+
+>>> (True or False) and False  # If this errors, just type Error. If this is blank, just type Nothing.
+? False
+-- OK! --
+
+---------------------------------------------------------------------
+OK! All cases for Veritasiness unlocked.
