@@ -1,4 +1,4 @@
-# cs61a
+# 名字反过来就是对的！
 呃呃呃才开始
 
 课程笔记 [https://l2rffg1hpi.feishu.cn/docx/C1c1dBEQUolFTbxEvjUcMsRznHf](https://l2rffg1hpi.feishu.cn/docx/C1c1dBEQUolFTbxEvjUcMsRznHf)
